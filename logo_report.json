@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "chatgpt",
+    "logo_url": "https://cdn2.futurepedia.io/2026-02-26T19-07-07.117Z-eFsSmR_y6bJz2m0O2KWwd36sXayyLnmE2.png?w=256",
+    "method": "img tag (score=7 (logo-card class; alt='ChatGPT Logo'; tool CDN host))",
+    "save_path": "test_logos/chatgpt.png",
+    "file_size_kb": 18.2,
+    "download_status": "saved (18.2 KB, .png)"
+  },
+  {
+    "tool": "midjourney",
+    "logo_url": "https://cdn2.futurepedia.io/f702c770ef67944ddac65e3b684db5bbc9792ab0-180x180.svg?w=256",
+    "method": "img tag (score=7 (logo-card class; alt='Midjourney Logo'; tool CDN host))",
+    "save_path": "test_logos/midjourney.png",
+    "file_size_kb": 9.4,
+    "download_status": "saved (9.4 KB, .png)  [URL said .svg, actually png]"
+  },
+  {
+    "tool": "perplexity-ai",
+    "logo_url": "https://cdn2.futurepedia.io/a453a2e62c4074b53ee009ee907a63180f0a3629-512x512.png?w=256",
+    "method": "img tag (score=7 (logo-card class; alt='Perplexity Logo'; tool CDN host))",
+    "save_path": "test_logos/perplexity-ai.png",
+    "file_size_kb": 31.6,
+    "download_status": "saved (31.6 KB, .png)"
+  },
+  {
+    "tool": "claude",
+    "logo_url": "https://cdn2.futurepedia.io/b6e50f0d7a55b834bbbc47f7baa3069472eef4b2-512x512.png?w=256",
+    "method": "img tag (score=7 (logo-card class; alt='Claude Logo'; tool CDN host))",
+    "save_path": "test_logos/claude.png",
+    "file_size_kb": 7.6,
+    "download_status": "saved (7.6 KB, .png)"
+  },
+  {
+    "tool": "copilot",
+    "logo_url": "https://cdn2.futurepedia.io/ce9ddf8f35d71da54f1cb4e227cb9bf20fe86141-225x225.png?w=256",
+    "method": "img tag (score=7 (logo-card class; alt='GitHub Copilot Logo'; tool CDN host))",
+    "save_path": "test_logos/copilot.png",
+    "file_size_kb": 12.2,
+    "download_status": "saved (12.2 KB, .png)"
+  }
+]
