@@ -111,12 +111,10 @@ def render_results(hits, history_idx=0):
         tid = tool_id_from_meta(m)
 
         with st.container(border=True):
-            top = st.columns([1, 5, 2], vertical_alignment="center")
+            top = st.columns([1, 5, 2])
             with top[0]:
                 render_logo(m)
             with top[1]:
-                st.markdown(f"### {name}")          # ← the tool name, restored
-            with top[2]:
                 saved = tid in st.session_state.saved
                 label = "✅ Saved" if saved else "⭐ Save"
                 if st.button(label, key=f"save_{history_idx}_{tid}_{idx}"):
@@ -137,7 +135,6 @@ def render_results(hits, history_idx=0):
             with bottom[1]:
                 if link and link != "#":
                     st.link_button("Visit official site", link)
-
 
 
 RETRIEVAL_K = 30
